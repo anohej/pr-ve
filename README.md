@@ -18,4 +18,7 @@ På Raspberry Pi klonet jeg repoet med git clone og kjørte scriptet med python3
 
 For å vise push og pull endret jeg litt i scriptet på PC-en, pushet det til GitHub, og kjørte git pull på Raspberry Pi. Da fikk jeg den oppdaterte versjonen der også, og alt fungerte som det skulle.
 
+<img width="1253" height="836" alt="image" src="https://github.com/user-attachments/assets/1fd4c074-b5d8-49f3-8844-86bebac82800" />
+
+
 
