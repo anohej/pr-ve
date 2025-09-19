@@ -5,7 +5,7 @@ IP-adressen 10.200.14.28 er en privat adresse i 10.x.x.x-nettverket, som bare br
 <img width="945" height="545" alt="image" src="https://github.com/user-attachments/assets/922125f8-1c82-442c-b4cd-e926d10ecced" />
 
 
-Jeg satte opp en Apache2-server på Ubuntu ved først å oppdatere systemet med sudo apt update && sudo apt upgrade -y. Deretter installerte jeg Apache2 med sudo apt install apache2 -y. Etter installasjonen sjekket jeg statusen med systemctl status apache2 for å være sikker på at tjenesten kjørte, og den stod som active (running). For å teste at det fungerte åpnet jeg en nettleser og skrev inn serverens IP-adresse, og da fikk jeg opp Apache2 sin standard velkomstside. Til slutt prøvde jeg å legge inn en egen HTML-fil i /var/www/html/, og den ble vist i nettleseren, noe som bekreftet at serveren fungerte som den skulle.
+Jeg satte opp en Apache2-server på Ubuntu ved først å oppdatere systemet med sudo apt update && sudo apt upgrade -y. Deretter installerte jeg Apache2 med sudo apt install apache2 -y. Etter installasjonen sjekket jeg statusen med systemctl status apache2 for å være sikker på at tjenesten kjørte, og den stod som active (running). For å teste at det fungerte åpnet jeg en nettleser og skrev inn serverens IP-adresse, og da fikk jeg opp Apache2 sin standard velkomstside. Til slutt prøvde jeg å legge inn en egen HTML-fil i /var/www/html/, og den ble vist i nettleseren, noe som bekreftet at serveren fungerte som den skulle. hvis du ikke putter 800 på slutten så kom det en defult page alle får.
 
 <img width="1856" height="1014" alt="Screenshot From 2025-09-17 11-25-57" src="https://github.com/user-attachments/assets/e51ca723-7fb4-448c-a48d-3071cae4f34f" />
 
